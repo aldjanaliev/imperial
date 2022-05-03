@@ -3695,6 +3695,7 @@ body input, body textarea {
           transform: none;
 }
 
+
 .img-responsive {
   display: block;
   max-width: 100%;
@@ -5092,7 +5093,7 @@ span.file-text span {
   margin-bottom: 15px;
 }
 .tnt_video:hover:before {
-  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .tnt_video:before {
   position: absolute;
@@ -5104,8 +5105,10 @@ span.file-text span {
   -webkit-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
-  background-color: rgba(222, 29, 37, 0.3);
-  opacity: 0;
+  background-image: url(../img/yt-ic.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .visible-lg {
@@ -7091,7 +7094,12 @@ button {
 .cost_calc-main--list-item {
   margin-bottom: 7px;
 }
-
+.tnt_image img{
+  margin: 0 auto;
+}
+.tnt_video img{
+  min-height: 100%;
+}
 @media (max-width: 1199.98px) {
   .quiz-bg {
     padding-bottom: 0;
@@ -7145,14 +7153,6 @@ button {
   }
 
   .tnt_title-wrap {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     margin-bottom: 20px;
   }
   .tnt_title-wrap > div {
