@@ -17,10 +17,11 @@
     overflow: hidden;
 }
 .video_result{
-	height: 374px;
+	    height: 333px;
     position: absolute;
-    left: -2px;
+    left: -22px;
     top: -12px;
+    width: 122%;
 }
 @media (max-width: 1200px) {
 	.video_result-wrap{
