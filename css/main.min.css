@@ -9097,6 +9097,9 @@ textarea.notvalid::placeholder {
 .simple_form .btn-ajax.disabled{
     pointer-events: none;
 }
+.gifts_txt{
+  min-height: 72px;
+}
 @media (max-width: 767px) {
   .tnt_video img{
     min-height: auto;
